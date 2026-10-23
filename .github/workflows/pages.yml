@@ -25,10 +25,10 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: false
-      - name: Add Linux platform to lockfile
-        run: bundle lock --add-platform x86_64-linux
       - name: Install dependencies
-        run: bundle install
+        run: |
+          rm -f Gemfile.lock
+          bundle install
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
