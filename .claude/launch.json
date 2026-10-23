@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "maxwell-www-jekyll",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-lc", "export PATH=\"$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH\"; cd ~/maxwell-www && bundle exec jekyll serve --host 0.0.0.0 --port 4001 --livereload --livereload-port 35730"],
+      "port": 4001
+    }
+  ]
+}

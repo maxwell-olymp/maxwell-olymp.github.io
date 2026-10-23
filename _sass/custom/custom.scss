@@ -1,0 +1,139 @@
+// Imported into every generated color-scheme stylesheet (default/light/dark),
+// so this accent is defined here rather than in color_schemes/maxwell.scss.
+// Reserved as a secondary accent for highlights (e.g. "new"/important badges) —
+// kept out of buttons/links so it stays distinctive when it is used for emphasis.
+$maxwell-orange: #ed7818;
+
+.highlight-badge {
+  display: inline-block;
+  background-color: $maxwell-orange;
+  color: $white;
+  font-size: $font-size-2;
+  font-weight: 600;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+}
+
+// Centers the site logo within its sidebar column (just-the-docs defaults
+// to left-aligning the background-image).
+.site-logo {
+  background-position: center center;
+}
+
+// Stakeholder / partner logos shown in the page header, carried over
+// from the old maxwell.mipt.ru site. Given its own background/border so it
+// reads as a separate "partners" strip rather than part of the site logo.
+.partners-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: $sp-3;
+  width: 100%;
+  padding: $sp-2 $sp-4;
+  background-color: $body-background-color;
+  border-bottom: $border $border-color;
+
+  @include mq(md) {
+    border-bottom: none;
+    border-left: $border $border-color;
+  }
+}
+
+.partners-bar__label {
+  color: $grey-dk-000;
+  font-size: $font-size-2;
+  white-space: nowrap;
+}
+
+.partners-bar__divider {
+  width: 1px;
+  align-self: stretch;
+  min-height: 1.75rem;
+  background-color: $border-color;
+}
+
+.partners-bar img {
+  height: 2.25rem;
+  width: auto;
+}
+
+@include mq(md) {
+  .partners-bar {
+    justify-content: flex-end;
+  }
+}
+
+// News cards, styled after astroedu.ru's journal feed.
+.news-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card {
+  padding: $sp-5 0;
+  border-bottom: $border $border-color;
+}
+
+.news-card:first-child {
+  padding-top: 0;
+}
+
+.news-card:last-child {
+  border-bottom: none;
+}
+
+// Sits inline at the start of the news-card heading, right after the
+// auto-generated anchor-link icon (see default.html's beforeHeading="true").
+.news-card__date {
+  display: inline-block;
+  background-color: $grey-dk-100;
+  color: $white;
+  font-size: $font-size-2;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  margin-right: $sp-2;
+  vertical-align: middle;
+}
+
+.news-card h3 {
+  margin: 0 0 $sp-2 0;
+}
+
+// Every page's first heading, aligned with the first sidebar nav item
+// ("Новости") instead of the theme's default 1.5em top margin.
+.main-content main > h1:first-child,
+.main-content main > h2:first-child {
+  margin-top: 1rem;
+}
+
+// The homepage's intro heading additionally gets extra bottom margin so it
+// doesn't crowd the first news card.
+.main-content h2.page-title {
+  margin-bottom: $sp-6;
+}
+
+.news-card__body {
+  color: $body-text-color;
+}
+
+.news-card__body > *:last-child {
+  margin-bottom: 0;
+}
+
+.news-card__link {
+  display: inline-block;
+  background-color: $link-color;
+  color: $white !important;
+  padding: 0.3rem 1.1rem;
+  border-radius: $border-radius;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: $sp-3;
+}
+
+.news-card__link:hover {
+  background-color: darken($link-color, 8%);
+  color: $white;
+}
