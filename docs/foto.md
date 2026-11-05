@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Фотографии
-nav_order: 7
+nav_exclude: true
 ---
 
 ## Фотографии

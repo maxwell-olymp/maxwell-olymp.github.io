@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2019
-parent: Архивы заданий
+nav_exclude: true
 nav_order: 9
 ---
 ## Региональный этап

@@ -1,0 +1,15 @@
+<article class="news-card">
+  <h3 id="news-{{ include.news.slug }}">
+    <span class="news-card__date">{{ include.news.date | date: "%d.%m.%Y" }}</span>
+    <a href="{{ include.news.url }}">{{ include.news.title }}</a>
+  </h3>
+
+  <div class="news-card__body">
+    {% if include.news.summary %}
+      {{ include.news.summary | markdownify }}
+      <p><a href="{{ include.news.url }}" class="news-card__link">Подробнее</a></p>
+    {% else %}
+      {{ include.news.content }}
+    {% endif %}
+  </div>
+</article>

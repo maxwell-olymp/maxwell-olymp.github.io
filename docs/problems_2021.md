@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2021
-parent: Архивы заданий
+nav_exclude: true
 nav_order: 7
 ---
 ## Региональный этап

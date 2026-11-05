@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2017
-parent: Архивы заданий
+nav_exclude: true
 nav_order: 11
 ---
 ## Региональный этап

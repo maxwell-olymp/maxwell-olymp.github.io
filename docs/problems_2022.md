@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2022
-parent: Архивы заданий
+nav_exclude: true
 nav_order: 6
 ---
 ## Региональный этап

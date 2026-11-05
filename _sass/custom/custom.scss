@@ -114,6 +114,19 @@ $maxwell-orange: #ed7818;
   margin-bottom: $sp-6;
 }
 
+// Keep compact Mermaid diagrams centered while allowing horizontal scrolling
+// on narrow screens.
+.mermaid-center {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.mermaid-center .language-mermaid {
+  flex: 0 0 auto;
+}
+
 .news-card__body {
   color: $body-text-color;
 }
