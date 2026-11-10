@@ -150,3 +150,56 @@ $maxwell-orange: #ed7818;
   background-color: darken($link-color, 8%);
   color: $white;
 }
+
+// Subject-thematic program tables (7th/8th grade curriculum calendars).
+.program-table table {
+  width: 100%;
+  min-width: 46rem;
+  font-size: $font-size-3;
+  table-layout: fixed;
+}
+
+.program-table td,
+.program-table th {
+  vertical-align: top;
+}
+
+.program-table .col-month {
+  width: 4.5rem;
+}
+
+.program-table .col-topic {
+  width: 42%;
+}
+
+.program-table .col-exp,
+.program-table .col-math {
+  width: 27%;
+}
+
+.program-table td p {
+  margin: 0 0 $sp-2 0;
+}
+
+.program-table td p:last-child {
+  margin-bottom: 0;
+}
+
+.program-month {
+  font-weight: 600;
+  color: $body-heading-color;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.program-stage td {
+  background-color: $sidebar-color;
+  color: $body-heading-color;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: $font-size-2;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}

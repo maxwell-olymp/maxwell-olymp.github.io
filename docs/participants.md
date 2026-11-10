@@ -13,3 +13,4 @@ has_children: true
 - [Как попасть на заключительный этап](/docs/participant-final.html)
 - [Частые вопросы](/docs/faq.html)
 - [Схема участия в региональном этапе](/docs/participant-scheme/)
+- [Предметно-тематическая программа](/docs/participant-program.html)
