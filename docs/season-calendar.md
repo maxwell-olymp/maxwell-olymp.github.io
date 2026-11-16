@@ -2,7 +2,7 @@
 layout: default
 title: Календарь
 parent: Сезон 2026/27
-nav_order: 1
+nav_order: 2
 ---
 
 ## Календарь сезона 2026/27

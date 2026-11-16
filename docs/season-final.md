@@ -2,7 +2,7 @@
 layout: default
 title: Заключительный этап
 parent: Сезон 2026/27
-nav_order: 4
+nav_order: 5
 ---
 
 ## Заключительный этап

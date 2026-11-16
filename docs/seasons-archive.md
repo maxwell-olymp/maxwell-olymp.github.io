@@ -2,7 +2,7 @@
 layout: default
 title: Прошлые сезоны
 parent: Сезон 2026/27
-nav_order: 5
+nav_order: 6
 ---
 
 ## Прошлые сезоны

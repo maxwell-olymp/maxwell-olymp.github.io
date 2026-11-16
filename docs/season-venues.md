@@ -2,7 +2,7 @@
 layout: default
 title: Площадки регионального этапа
 parent: Сезон 2026/27
-nav_order: 3
+nav_order: 4
 ---
 
 ## Площадки регионального этапа

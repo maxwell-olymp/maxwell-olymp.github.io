@@ -203,3 +203,28 @@ $maxwell-orange: #ed7818;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
 }
+
+// A prominent "download the source PDF" plate at the top of a reproduced
+// official document (e.g. a ministry letter).
+.doc-banner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: $sp-4;
+  background-color: $sidebar-color;
+  border: $border $border-color;
+  border-radius: $border-radius;
+  padding: $sp-4 $sp-5;
+  margin-bottom: $sp-6;
+}
+
+.doc-banner__meta strong {
+  display: block;
+  color: $body-heading-color;
+}
+
+.doc-banner .news-card__link {
+  margin-top: 0;
+  white-space: nowrap;
+}

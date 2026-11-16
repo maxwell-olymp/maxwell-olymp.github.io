@@ -2,7 +2,7 @@
 layout: default
 title: Региональный этап
 parent: Сезон 2026/27
-nav_order: 2
+nav_order: 3
 ---
 
 ## Региональный этап
